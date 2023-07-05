@@ -1,6 +1,5 @@
-import React from 'react'
-import { useState, useEffect } from "react"
 import { Col, Row, Typography } from 'antd';
+import { useEffect, useState } from "react";
 const { Title, Text } = Typography;
 
 const names = [

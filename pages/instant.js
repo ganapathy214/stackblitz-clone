@@ -1,5 +1,4 @@
-import { Col, Row, Typography } from 'antd'
-import React from 'react'
+import { Col, Row, Typography } from 'antd';
 
 export default function Instant() {
     const { Title, Text } = Typography;
@@ -51,7 +50,6 @@ export default function Instant() {
                     <Col md={10}>
                         <img alt="img" src="https://c.staticblitz.com/assets/vite/bug_reports-62f54590.png" width={650} />
                     </Col>
-
                 </Row>
 
                 <Row align={"middle"}>
@@ -67,18 +65,7 @@ export default function Instant() {
 
                             <Text style={{ fontSize: 18, }}>to embed and interact with , <strong>actual code</strong> in your <strong>actual docs,</strong> blog or website..</Text>
                         </div>
-
-                        {/* <div style={{ padding: "0 10px 30px 10px" }}>
-                            <Text style={{ fontSize: 18, padding: "0 10px" }}>
-                                <a href="https://developer.stackblitz.com/guides/integration/bug-reproductions" >Share complete environments with only a url,</a> and never spin up heavy
-                            </Text>
-
-                            <Text style={{ fontSize: 18, }}>
-                                local installations for a simple bug report <strong>ever again.</strong>
-                            </Text>
-                        </div> */}
                     </Col>
-
                 </Row>
 
                 <Row align={"middle"} style={{ paddingBottom: 50 }}>
@@ -92,13 +79,11 @@ export default function Instant() {
 
                             <Text style={{ fontSize: 18, }}>Collaborate remotely on different devices, send and receive instant feedback, and <strong>get to market faster.</strong></Text>
                         </div>
-
                     </Col>
                     <Col md={2} />
                     <Col md={10}>
                         <img alt="img" src="https://c.staticblitz.com/assets/vite/rapid_prototyping-35780526.png" width={650} />
                     </Col>
-
                 </Row>
             </div>
         </div>

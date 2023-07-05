@@ -1,7 +1,5 @@
-import { Col, Row } from 'antd'
-import React from 'react'
+import { Col, Row } from 'antd';
 import background from '../assets/Image_01.png';
-
 
 export default function Companies() {
     return (
@@ -23,8 +21,6 @@ export default function Companies() {
                             </div>
                         </Col>
                     </Row>
-
-
 
                     <div className='btnlogoContainer'>
                         <img className='btnLogo' alt="Google logo" src="https://c.staticblitz.com/assets/vite/google-2f23d1a2.svg" />

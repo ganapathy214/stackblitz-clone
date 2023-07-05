@@ -1,5 +1,4 @@
-import { Col, Row, Typography } from 'antd'
-import React from 'react'
+import { Col, Row, Typography } from 'antd';
 
 export default function Quotes() {
     const { Title, Text } = Typography;
