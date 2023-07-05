@@ -22,16 +22,18 @@
   display: flex;
   gap: 20px;
   justify-content: center;
-  margin-top: 30px;
   flex-wrap: wrap;
+  width: 80%;
+  margin: 50px auto;
 }
 
 .btnlogoContainer {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 60px 50px;
+
+  padding: 60px 0;
   gap: 40px;
-  margin-left: 43px;
+  margin-left: -100px;
+  width: 132%;
+
 }
 
 .btnLogo {
@@ -277,6 +279,7 @@ footer.public-section.public-footer .public-footer__copyright p {
   font-weight: 650;
   color: #ffff;
 }
+
 .section-logo {
   width: 41%;
   height: 75%;
