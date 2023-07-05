@@ -1,9 +1,6 @@
-import { AppstoreOutlined, MailOutlined, SettingOutlined } from '@ant-design/icons';
 import { Affix, Button, Col, Menu, Row } from 'antd';
 import Image from 'next/image';
-import { useState } from 'react';
-import logo from '../assets/logo.jpg'
-// import logoimg from '../assets/logo.jpg'
+import logo from '../assets/logo.jpg';
 const items = [
     {
         label: 'Docs',
@@ -14,7 +11,7 @@ const items = [
         key: 'Price',
     },
     {
-        label: 'Enterprice  ',
+        label: 'Enterprice  ', 
         key: 'Enterprice',
     },
     {

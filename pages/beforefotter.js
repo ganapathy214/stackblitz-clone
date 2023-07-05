@@ -1,13 +1,10 @@
-import React from 'react'
 
+import { Col, Row, Typography } from 'antd';
+import Image from 'next/image';
 import background from '../assets/Image_01.png';
-import user from '../assets/image_02.jpg';
-import logo from '../assets/image_03.png';
-import logo_one from '../assets/image_06.png';
 import logo_two from '../assets/image_04.png';
 import logo_three from '../assets/image_05.png';
-import Image from 'next/image';
-import { Col, Row, Typography } from 'antd';
+import logo_one from '../assets/image_06.png';
 export default function beforefotter() {
     const { Title, Text } = Typography;
     return (
@@ -76,7 +73,6 @@ export default function beforefotter() {
                 backgroundImage: `url(${background.src})`,
                 width: '100%',
                 height: '100%',
-
             }}> 
                 <div>
                     <Text style={{ fontSize: 36, color: '#ffff', }}>

@@ -1,5 +1,4 @@
-import { Col, Row, Tabs, Typography } from 'antd'
-import React from 'react'
+import { Col, Row, Tabs, Typography } from 'antd';
 
 export default function Environment() {
     const { Title, Text } = Typography;
@@ -140,7 +139,6 @@ export default function Environment() {
                                 </div>
                             </div>
                         </button>
-
                     )
                 })}
             </div>
