@@ -5,39 +5,39 @@ export default function Environment() {
     const items = [
         {
             key: '1',
-            label: `Popular`,
+            label: 'Popular',
         },
         {
             key: '2',
-            label: `Frontend`,
+            label: 'Frontend',
         },
         {
             key: '3',
-            label: `Backend `,
+            label: 'Backend',
         },
         {
             key: '4',
-            label: `Full stack `,
+            label: 'Full stack',
         },
         {
             key: '5',
-            label: `Vite `,
+            label: 'Vite',
         },
         {
             key: '6',
-            label: `Doc, bloges & slides `,
+            label: 'Doc, blogs & slides',
         },
         {
-            key: '7 ',
-            label: `Creative `,
+            key: '7',
+            label: 'Creative',
         },
         {
             key: '8',
-            label: `Mobile `,
+            label: 'Mobile',
         },
         {
-            key: '9 ',
-            label: `Venila `,
+            key: '9',
+            label: 'Vanilla',
         },
     ];
 
@@ -103,45 +103,50 @@ export default function Environment() {
             content: "Node.js",
         },
     ];
+
     return (
-        <div style={{ backgroundColor: "#1c1f25", color: "#fff", padding: " 0 0 10% 0" }}  >
-            <Row justify={"center"} >
+        <div style={{ backgroundColor: '#1c1f25', color: '#fff', padding: '0 0 10% 0' }}>
+            <Row justify="center">
                 <Col>
-                    <Row justify={"center"}>
-                        <Col>
-                            <div style={{ fontSize: 35, color: "#fff", marginBottom: 30 }}>
-                                Boot a fresh environment in <span style={{ fontWeight: 700, }}>milliseconds.</span>
-                            </div>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col>
-                            <div style={{ fontSize: 30, color: "#fff" }}>
-
-                                <Tabs defaultActiveKey="1" items={items} />
-                            </div>
-                        </Col>
-                    </Row>
-
+                    <div style={{ fontSize: 35, color: '#fff', marginBottom: 30, textAlign: 'center' }}>
+                        Boot a fresh environment in <span style={{ fontWeight: 700 }}>milliseconds.</span>
+                    </div>
                 </Col>
             </Row>
-            <div className='btnContainer'>
-                {buttonItems.map((btn) => {
-                    return (
-                        <button className='envButton'>
-                            <img src={btn.logo} alt="logo" width={50} height={50} />
-                            <div>
-                                <div style={{ fontWeight: 400, fontSize: "85%", color: "#cccccc" }}>
-                                    {btn.Title}
-                                </div>
-                                <div style={{ fontWeight: 400, fontSize: "85%", color: "#909193" }}>
-                                    {btn.content}
-                                </div>
-                            </div>
-                        </button>
-                    )
-                })}
+            <Row justify="center">
+                <Col xs={22} sm={20} md={18} lg={16} xl={14} xxl={12}>
+                    <div style={{ fontSize: 30, color: '#fff', textAlign: 'center' }}>
+                        <Tabs defaultActiveKey="1" items={items} />
+                    </div>
+                </Col>
+            </Row>
+            <div className="btnContainer" >
+                {buttonItems.map((btn) => (
+                    <button
+                        key={btn.id}
+                        className="envButton"
+                        style={{
+                            display: 'flex',
+                            flexDirection: 'row',
+                            alignItems: 'center',
+                            width: 200,
+                            margin: '10px',
+                            padding: '10px',
+                            backgroundColor: '#333',
+                            color: '#fff',
+                            border: 'none',
+                            borderRadius: '4px',
+                            cursor: 'pointer',
+                        }}
+                    >
+                        <img src={btn.logo} alt="logo" width={50} height={50} style={{ marginBottom: '10px' }} />
+                        <div style={{ textAlign: 'center' }}>
+                            <div style={{ fontWeight: 400, fontSize: '85%', color: '#cccccc' }}>{btn.Title}</div>
+                            <div style={{ fontWeight: 400, fontSize: '85%', color: '#909193' }}>{btn.content}</div>
+                        </div>
+                    </button>
+                ))}
             </div>
         </div>
-    )
+    );
 }
