@@ -1,4 +1,7 @@
-import { Col, Row, Tabs, Typography } from 'antd';
+import Tabs from 'antd/lib/tabs';
+import Typography from 'antd/lib/typography';
+import Col from 'antd/lib/col';
+import Row from 'antd/lib/row';
 
 export default function Environment() {
     const { Title, Text } = Typography;

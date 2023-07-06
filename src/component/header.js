@@ -1,4 +1,9 @@
-import { Affix, Button, Col, Drawer, Menu, Row } from 'antd';
+import Affix from 'antd/lib/affix';
+import Button from 'antd/lib/button';
+import Col from 'antd/lib/col';
+import Drawer from 'antd/lib/drawer';
+import Menu from 'antd/lib/menu';
+import Row from 'antd/lib/row';
 import { MenuOutlined } from '@ant-design/icons';
 import Image from 'next/image';
 import logo from '../../assets/logo.jpg';

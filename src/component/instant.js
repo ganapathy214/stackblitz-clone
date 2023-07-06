@@ -1,4 +1,6 @@
-import { Col, Row, Typography } from 'antd';
+import Typography from 'antd/lib/typography';
+import Col from 'antd/lib/col';
+import Row from 'antd/lib/row';
 
 export default function Instant() {
     const { Title, Text } = Typography;

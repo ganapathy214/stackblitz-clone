@@ -1,4 +1,6 @@
-import { Col, Row, Typography } from 'antd';
+import Typography from 'antd/lib/typography';
+import Col from 'antd/lib/col';
+import Row from 'antd/lib/row';
 import { useEffect, useState } from "react";
 const { Title, Text } = Typography;
 

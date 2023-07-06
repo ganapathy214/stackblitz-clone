@@ -1,4 +1,5 @@
-import { Col, Row } from 'antd';
+import Col from 'antd/lib/col';
+import Row from 'antd/lib/row';
 import background from '../../assets/Image_01.png';
 
 export default function Companies() {
