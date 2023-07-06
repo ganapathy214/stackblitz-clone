@@ -1,0 +1,68 @@
+{
+  "index.js -> ./beforefotter": {
+    "id": 8574,
+    "files": [
+      "static/chunks/401-b2a70721472c2976.js",
+      "static/chunks/678-6318f5595975aabb.js",
+      "static/chunks/317-28378592bc2bc463.js",
+      "static/chunks/675-9cee43812208deb9.js",
+      "static/chunks/574.5a1ea4e9bd0955c3.js"
+    ]
+  },
+  "index.js -> ./companies": {
+    "id": 304,
+    "files": [
+      "static/chunks/401-b2a70721472c2976.js",
+      "static/chunks/304.7f22919a6f2bc63a.js"
+    ]
+  },
+  "index.js -> ./environment": {
+    "id": 7259,
+    "files": [
+      "static/chunks/401-b2a70721472c2976.js",
+      "static/chunks/678-6318f5595975aabb.js",
+      "static/chunks/317-28378592bc2bc463.js",
+      "static/chunks/908-a1bd2da86706a4dd.js",
+      "static/chunks/326-d95e4ecea29a8411.js",
+      "static/chunks/259.6b89968c0c7e3de3.js"
+    ]
+  },
+  "index.js -> ./header": {
+    "id": 7919,
+    "files": [
+      "static/chunks/401-b2a70721472c2976.js",
+      "static/chunks/678-6318f5595975aabb.js",
+      "static/chunks/908-a1bd2da86706a4dd.js",
+      "static/chunks/675-9cee43812208deb9.js",
+      "static/chunks/575-9a0bd21908a3827b.js",
+      "static/chunks/919.be82499b533de8c0.js"
+    ]
+  },
+  "index.js -> ./home": {
+    "id": 1171,
+    "files": [
+      "static/chunks/401-b2a70721472c2976.js",
+      "static/chunks/678-6318f5595975aabb.js",
+      "static/chunks/317-28378592bc2bc463.js",
+      "static/chunks/171.8c0b8a04ed906a92.js"
+    ]
+  },
+  "index.js -> ./instant": {
+    "id": 6128,
+    "files": [
+      "static/chunks/401-b2a70721472c2976.js",
+      "static/chunks/678-6318f5595975aabb.js",
+      "static/chunks/317-28378592bc2bc463.js",
+      "static/chunks/128.91176da686c23968.js"
+    ]
+  },
+  "index.js -> ./quotes": {
+    "id": 6242,
+    "files": [
+      "static/chunks/401-b2a70721472c2976.js",
+      "static/chunks/678-6318f5595975aabb.js",
+      "static/chunks/317-28378592bc2bc463.js",
+      "static/chunks/242.93a0e8b991ae19d4.js"
+    ]
+  }
+}

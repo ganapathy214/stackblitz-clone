@@ -1,0 +1,15 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/api/hello": "pages/api/hello.js",
+  "/_document": "pages/_document.js",
+  "/beforefotter": "pages/beforefotter.html",
+  "/environment": "pages/environment.html",
+  "/companies": "pages/companies.html",
+  "/home": "pages/home.html",
+  "/instant": "pages/instant.html",
+  "/quotes": "pages/quotes.html",
+  "/header": "pages/header.html",
+  "/": "pages/index.html",
+  "/404": "pages/404.html"
+}
