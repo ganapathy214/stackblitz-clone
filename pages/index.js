@@ -5,28 +5,28 @@ import Head from 'next/head'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-    const DynamicHeader = dynamic(() => import('./header'), {
+    const DynamicHeader = dynamic(() => import('../src/component/header'), {
         ssr: false,
     })
 
-    const DynamicHome = dynamic(() => import('./home'), {
+    const DynamicHome = dynamic(() => import('../src/component/home'), {
         ssr: false,
     })
 
-    const DynamicEnvironment = dynamic(() => import('./environment'), {
+    const DynamicEnvironment = dynamic(() => import('../src/component/environment'), {
         ssr: false,
     })
 
-    const DynamicCompanies = dynamic(() => import('./companies'), {
+    const DynamicCompanies = dynamic(() => import('../src/component/companies'), {
         ssr: false,
     })
-    const DynamicInstant = dynamic(() => import('./instant'), {
+    const DynamicInstant = dynamic(() => import('../src/component/instant'), {
         ssr: false,
     })
-    const DynamicQuotes = dynamic(() => import('./quotes'), {
+    const DynamicQuotes = dynamic(() => import('../src/component/quotes'), {
         ssr: false,
     })
-    const DynamicBeforefotter = dynamic(() => import('./beforefotter'), {
+    const DynamicBeforefotter = dynamic(() => import('../src/component/beforefotter'), {
         ssr: false,
     })
 

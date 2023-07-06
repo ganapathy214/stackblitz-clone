@@ -1,7 +1,7 @@
 import { Affix, Button, Col, Drawer, Menu, Row } from 'antd';
 import { MenuOutlined } from '@ant-design/icons';
 import Image from 'next/image';
-import logo from '../assets/logo.jpg';
+import logo from '../../assets/logo.jpg';
 import { useState } from 'react';
 
 const items = [
