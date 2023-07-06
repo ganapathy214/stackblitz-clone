@@ -1,9 +1,9 @@
 import { Col, Row, Typography } from 'antd';
 import Image from 'next/image';
-import background from '../assets/Image_01.png';
-import logo_two from '../assets/image_04.png';
-import logo_three from '../assets/image_05.png';
-import logo_one from '../assets/image_06.png';
+import background from '../../assets/Image_01.png';
+import logo_two from '../../assets/image_04.png';
+import logo_three from '../../assets/image_05.png';
+import logo_one from '../../assets/image_06.png';
 
 const { Title, Text } = Typography;
 
