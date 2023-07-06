@@ -1,4 +1,6 @@
-import { Col, Row, Typography } from 'antd';
+import Typography from 'antd/lib/typography';
+import Typography from 'antd/lib/col';
+import Typography from 'antd/lib/row';
 import Image from 'next/image';
 import background from '../../assets/Image_01.png';
 import logo_two from '../../assets/image_04.png';
